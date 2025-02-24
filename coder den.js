@@ -39,3 +39,15 @@ function oddOne(arr) {
 console.log(oddOne([2, 4, 6, 7, 10]));
 console.log(oddOne([2, 4, 6, 10]));
 console.log(oddOne([2, 16, 98, 10, -13, 10]));
+
+
+// Question 6
+Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their scope, 
+regardless of where they are actually defined. 
+This can affect how variables and functions are accessed and used in the code.
+
+var x;
+console.log(x); // outputs: undefined
+x = 10;
+
+
